@@ -1,0 +1,30 @@
+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
+
+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
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password by 'root@123';
+
+
+SET GLOBAL validate_password.policy=LOW 
+
+
+
+
+https://github.com/abhinandanchivate/moglixTraining 
+
+https://www.digitalocean.com/community/questions/how-to-change-caching_sha2_password-to-mysql_native_password-on-a-digitalocean-s-managed-mysql-database 
+
+
+
+
+
+
+
+
+spring.datasource.username=root
+spring.datasource.password=root@123
+spring.datasource.url=jdbc:mysql://localhost/moglix_emp?useSSL=false
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
